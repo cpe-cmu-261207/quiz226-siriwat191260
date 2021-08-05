@@ -18,7 +18,7 @@ author.innerHTML = "630610764 Siriwat Songwattana"
 
 btn_toggle.onclick = () => {
   if(btn_toggle.innerHTML === "Show Calculation"){
-    calculation.innerHTML = 630610764+length.value
+    calculation.innerHTML = 630610764 + parseInt(length.value)
     btn_toggle.innerHTML = "Show Author"
     author.innerHTML = ""
   }else{
