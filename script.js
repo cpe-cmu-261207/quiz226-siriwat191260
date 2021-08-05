@@ -37,7 +37,7 @@ btn_search.onclick = () => {
   const words = str.split(" ");
 
   for(let i = 0; i < words.length; i++){
-    if(words[i].length > length.value){
+    if(words[i].length >= length.value){
       words[i] = "<span style='color:"+ color.value+ "'>" + words[i] + "</span>";
     }
   }
